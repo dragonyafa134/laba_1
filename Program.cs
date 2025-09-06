@@ -27,7 +27,6 @@ namespace Program
 
             //Console.Write("Введите возраст ");
             //int age = int.Parse(Console.ReadLine());
-            //int age2 = Convert.ToInt32(Console.ReadLine()); 
             //Console.WriteLine(age);
 
             //int num = 240;
@@ -61,7 +60,71 @@ namespace Program
 
 
             //hellooooooooooo
-            Console.WriteLine();
+            //Console.WriteLine();
+
+
+
+
+            //1 задания 
+            //Console.Write("Введите ваше имя ");
+            //string name = Console.ReadLine();
+            //Console.Write("Введите ваш возраст ");
+            //int age = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine($"ваше имя {name}");
+            //Console.WriteLine($"ваш возраст{age}");
+            //Console.WriteLine($"привет {name}");
+            //Console.WriteLine($"Через год тебе {age+1}");
+
+
+
+            //2 задания 
+            //Console.Write("Введите ваше любимую игру/кино/ангиме ");
+            //string kino = Console.ReadLine();
+            //Console.Write("Введите вашу любимую цифру  ");
+            //int age = int.Parse(Console.ReadLine());
+            //Console.Write("Введите число пи   ");
+            //int pii = int.Parse(Console.ReadLine());
+            //Console.Write("Ваша любимая буква ");
+            //string bykva = Console.ReadLine();
+
+            //Console.WriteLine(kino);
+            //Console.WriteLine(age);
+            //Console.WriteLine(pii);
+            //Console.WriteLine(bykva);
+
+
+            //3 задания 
+            //string ma = "i\nneed\nmore\npower!";//не хочет (
+            //Console.WriteLine(ma);
+
+            //4 задания
+            //Console.WriteLine("\"hello there\"");
+
+            //5 задания 
+            //Console.Write("мщнитор  ");
+            //int pk1 = int.Parse(Console.ReadLine());
+            //Console.Write("блок ");
+            //int pk2 = int.Parse(Console.ReadLine());
+            //Console.Write("клава ");
+            //int pk3 = int.Parse(Console.ReadLine());
+            //Console.Write("мыш ");
+            //int pk4 = int.Parse(Console.ReadLine());
+            //Console.WriteLine($"{pk1 + pk2 + pk3+ pk4}");
+
+            //Console.Write("мщнитор  ");
+            //int pk5 = int.Parse(Console.ReadLine());
+            //Console.Write("блок ");
+            //int pk6 = int.Parse(Console.ReadLine());
+            //Console.Write("клава ");
+            //int pk7 = int.Parse(Console.ReadLine());
+            //Console.Write("мыш ");
+            //int pk8 = int.Parse(Console.ReadLine());
+            //Console.WriteLine($"{pk5 + pk6 + pk7 + pk8}");
+
+            //Console.WriteLine($"общая сумма двух {pk1 + pk2 + pk3 + pk4+pk5 + pk6 + pk7 + pk8}");
+
+
         }
     }
 }
