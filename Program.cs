@@ -52,12 +52,16 @@ namespace Program
             //object fgf = 'f', "fdd", 34; // обжиг но не 
 
             //var name = "ew"; //он сам решает какой это тип данных но есть нюанс присвоить значения обязательно 
-            
+
             //символы 
             //char symbol = 'a';
 
             //Console.WriteLine(int.MinValue); //максимальное значения 
-            
+
+
+
+            //hellooooooooooo
+            Console.WriteLine();
         }
     }
 }
