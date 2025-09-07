@@ -7,9 +7,12 @@ namespace Program
     {
         static void Main(string[] args)
         {
+
+            //Console.WriteLine(int.MinValue);
+            //Console.WriteLine(int.MaxValue);
             //int number = 10; //создаем переменную  
             //Console.WriteLine(number); //вывод переменной 
-            //Console.WriteLine("hello world!"); //вывод 
+            /*Console.WriteLine("hello world!");*/ //вывод 
 
             ////считывать будем снизу с клавы имя 
             //Console.WriteLine("введите имя: "); //просим ввести имя
@@ -62,10 +65,11 @@ namespace Program
             //hellooooooooooo
             //Console.WriteLine();
 
+            //Console.Write("ds"); //нет перехода на другую строку
+            //Console.Write("dвы");
 
 
-
-            //1 задания 
+            //12 задания 
             //Console.Write("Введите ваше имя ");
             //string name = Console.ReadLine();
             //Console.Write("Введите ваш возраст ");
@@ -76,9 +80,9 @@ namespace Program
             //Console.WriteLine($"привет {name}");
             //Console.WriteLine($"Через год тебе {age+1}");
 
+            //самостоятельные задания 
 
-
-            //2 задания 
+            //1 задания 
             //Console.Write("Введите ваше любимую игру/кино/ангиме ");
             //string kino = Console.ReadLine();
             //Console.Write("Введите вашу любимую цифру  ");
@@ -94,37 +98,62 @@ namespace Program
             //Console.WriteLine(bykva);
 
 
-            //3 задания 
+            //2 задания 
             //string ma = "i\nneed\nmore\npower!";//не хочет (
-            //Console.WriteLine(ma);
+            //Console.WriteLine(ma);//а нет хочет)) \n 
 
-            //4 задания
+            //3 задания
             //Console.WriteLine("\"hello there\"");
 
-            //5 задания 
-            //Console.Write("мщнитор  ");
-            //int pk1 = int.Parse(Console.ReadLine());
-            //Console.Write("блок ");
-            //int pk2 = int.Parse(Console.ReadLine());
-            //Console.Write("клава ");
-            //int pk3 = int.Parse(Console.ReadLine());
-            //Console.Write("мыш ");
-            //int pk4 = int.Parse(Console.ReadLine());
-            //Console.WriteLine($"{pk1 + pk2 + pk3+ pk4}");
+            //4 задания 
+            //Console.Write("монитор:  ");
+            //int monitor = int.Parse(Console.ReadLine());
+            //Console.Write("блок: ");
+            //int blok = int.Parse(Console.ReadLine());
+            //Console.Write("клава: ");
+            //int clava = int.Parse(Console.ReadLine());
+            //Console.Write("мышь: ");
+            //int mouse = int.Parse(Console.ReadLine());
 
-            //Console.Write("мщнитор  ");
-            //int pk5 = int.Parse(Console.ReadLine());
-            //Console.Write("блок ");
-            //int pk6 = int.Parse(Console.ReadLine());
-            //Console.Write("клава ");
-            //int pk7 = int.Parse(Console.ReadLine());
-            //Console.Write("мыш ");
-            //int pk8 = int.Parse(Console.ReadLine());
-            //Console.WriteLine($"{pk5 + pk6 + pk7 + pk8}");
-
-            //Console.WriteLine($"общая сумма двух {pk1 + pk2 + pk3 + pk4+pk5 + pk6 + pk7 + pk8}");
+            //Console.WriteLine($"Сумма трех пк :{(monitor + blok + clava + mouse) * 3}");
 
 
+            //5 задания
+            //Console.WriteLine("Введите число а ");
+            //int a = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Введите число b ");
+            //int b = int.Parse(Console.ReadLine());
+
+            //int s = a + b;
+            //Console.WriteLine($"{3 * Math.Pow(s, 3) + 275 * Math.Pow(b, 2) - 127 * a - 41}");
+
+            //6 задания 
+            //Console.Write("Введите ваше имя ");
+            //string name = Console.ReadLine();
+            //Console.Write("Введите ваш возрст ");
+            //int age = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine($"\"Привет, {name}\"");
+            //Console.WriteLine($"\"Сейчас тебе {age} лет\"");
+            //Console.WriteLine($"\"В следущем году тебе будет {age + 1}\"");
+
+            //7 задания 
+            //string name = "Дарья";
+            //int age = 100;
+            //string city = "Волгоград";
+
+            //Console.WriteLine($"Привет, {name}! Тебе {age} лет и ты живешь в городе {city}");
+            //Console.WriteLine("Привет , {0}!  Тебе {1} лет и ты живешь в городе {2}", name, age, city); 
+
+            //*8 задания 
+            //Console.WriteLine("Ввнди температуру в градусах Цельсия"); //формула °F = (°C × 9/5) + 32
+            //int uls = int.Parse(Console.ReadLine());
+
+            ////сначала сделаем в скобаках
+            //decimal num = 9m / 5m; //вот это было трудновато))) хотела 9.5м
+            
+            //decimal f = uls * num +32m; //тк num decimal - будет дробное число(
+            //Console.WriteLine($"Фаренгейт: {f}");
         }
     }
 }
